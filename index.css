@@ -1,0 +1,954 @@
+@font-face {
+  font-family: weddingFont;
+  src: url(./font/bernaillo/Bernaillo.ttf);
+}
+
+@font-face {
+  font-family: dancingFont1;
+  src: url(./font/bernaillo/DancingFont.woff2);
+}
+
+@font-face {
+  font-family: dancingFont2;
+  src: url(./font/bernaillo/DancingFont2.woff2);
+}
+
+@font-face {
+  font-family: dancingFont3;
+  src: url(./font/bernaillo/DancingFont3.woff2);
+}
+
+@font-face {
+  font-family: futura;
+  src: url(./font/futura/Futura\ Std\ Light.ttf);
+}
+
+/* GENERAL SETTINGS */
+
+html,body { 
+  margin: 0;
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-family: dancingFont3;
+  letter-spacing: 0;
+}
+
+h3 {
+  font-family: 'Parisienne', cursive;
+  letter-spacing: 0;
+}
+
+h4 {
+  font-family: futura;
+  letter-spacing: 0;
+}
+
+.container{
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100vw;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-md8, .col-md4, .col-sm6, .col-xs-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+   
+.no-padding {
+  padding: 0 !important;
+}
+
+.container img{
+  width:100%;
+  height:auto;
+}
+/* HEADER SETTINGS */
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 70;
+}
+
+.centered-navigation {
+  background-color: #fff;
+  min-height: 3rem;
+  width: 100%;
+  z-index: 75;
+}
+
+nav {
+  display: block;
+}
+
+.centered-navigation .nav-mobile-menu {
+  color: #958753;
+  display: block;
+  font-weight: 700;
+  line-height: 3rem;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.centered-navigation ul.centered-navigation-menu {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  clear: both;
+  margin: 0 auto;
+  overflow: visible;
+  padding: 0;
+  width: 100%;
+  z-index: 76;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  text-align: center;
+}
+
+.centered-navigation ul li.nav-link {
+  display: block;
+  font-size: .875rem;
+  font-weight: 500;
+  letter-spacing: .2em;
+  line-height: 3rem;
+  overflow: hidden;
+  text-align: center;
+  z-index: 69;
+}
+
+li.nav-link a {
+  color: #333;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+/* HERO SETTINGS */
+
+#hero-text{
+  padding:10% 0;
+}
+
+#hero {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-image: url(/picture/hero.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 3px 3px #000;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  min-height: 95vh;
+  padding-top: 8em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+#pane {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 50vh;
+  position: relative;
+  width: 100%;
+  padding: 6rem 1.5em;
+}
+
+#hero #site-title-pane {
+  padding-bottom: 4rem;
+}
+
+.pane .pane-title, .pane .title-section {
+  margin-bottom: 2em;
+}
+
+#hero h1 {
+  font-size: 8rem;
+  margin-bottom: 0;
+  font-family: 'weddingFont', serif;
+  letter-spacing: 0;
+}
+
+#hero p.byline {
+  font-family: futura;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #fff;
+}
+
+.scrollplz {
+  transform: rotate(90deg);
+  width: 42px;
+  fill:#fff;
+  margin: 0 auto;
+  margin-top: 7.5rem;
+  cursor: pointer;
+}
+
+/* AFTER HERO */
+
+#after-hero {
+  height: calc(5vh);
+  background-color: #f7f5f0;
+}
+
+/* STORY SETTINGS */
+
+#story span,
+#story p {
+  font-family: 'futura';
+  letter-spacing: 0.05rem;
+}
+
+#story p {
+  margin-top: 2rem;
+  font-size:16px;
+  line-height: 1.6rem;
+  margin-left: 4rem;
+  margin-right: 12.5rem;
+}
+
+#story #signature {
+  font-family: dancingFont3;
+  font-size: 1.85rem; 
+  padding-top:20px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#story h1 {
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color: #958753;
+  display: inline-block;
+  position: relative;
+}
+
+#story h1::after{
+  position:absolute;
+  content: '';
+  border-bottom: 2px solid #958753;
+  width: 100%;
+  transform: translateX(-50%);
+  bottom: -15px;
+  left: 50%;
+}
+
+#story-text {
+  background-color: #212121;
+  color: #fff;
+}
+
+#story img {
+  height: 750px;
+}
+
+/* CONFIRMATION SETTINGS */
+
+.date {
+  font-family: futura;
+  text-align:center;
+  font-size: 3rem;
+  letter-spacing:3px;
+  color:white;
+}
+
+#clockdiv h4 {
+  color: #958753;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: weddingFont;
+}
+
+#clockdiv h2{
+  color: #958753;
+  font-size: 2rem;
+  font-family: futura;
+}
+
+#reminder{
+  background:#f7f5f0;
+}
+
+#clockdiv{
+  padding: 5% 0 2% 0;
+  text-align:center;
+  font-family: futura;
+  font-size: 24px; 
+  color: #958753;
+}
+
+#clockdiv div{
+  display:inline-block;
+  margin:10px;
+}
+
+#clockdiv div span{
+  display:inline-block;
+}
+
+#clockdiv h4{
+  font-family: futura;
+  color:#958753;
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.wed-date{
+  font-size:48px;
+}
+
+#btnConfirm {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.btn-primary{
+  background: none;
+  color: #958753;
+  font-family: futura;
+  font-size:18px;
+  font-weight: bolder;
+  border: 2px solid #958753;
+  margin-bottom:5%;
+  border-radius: 0;
+}
+
+.btn-primary:hover{
+  background: #958753;
+  border: 2px solid #958753;
+}
+
+.rsvp-container {
+  margin: 0 auto;
+  height: 800px;
+  width: 500px;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+}
+
+
+
+/* .rsvp-container::after {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 50px;
+  top: 50px;
+  background: #fff;
+  z-index: 1;
+} */
+
+.rsvp-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url("./picture/confirmationParisBottom.png") bottom repeat-x;
+  z-index: 3;
+}
+
+.rsvp-inner-container {
+  position: relative;
+  z-index: 4;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.confirmarePrezenta {
+  margin-top: 2rem;
+}
+
+
+#formNume {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.alert-danger {
+  margin-top: 0.5rem;
+  color: #6d4121;
+  background-color: #efe4d0;
+  border-color: #b49266;
+}
+
+/* EVENT INTO SETTINGS */
+
+#event-info p {
+  font-family: 'futura';
+  letter-spacing: 0.05rem;
+}
+
+#event-info h4{
+  color:DimGray;
+  text-align:left;
+  margin:2% 0;
+}
+
+
+#event-info h1 {
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color: #958753;
+  display: inline-block;
+  position: relative;
+}
+
+#event-info h1::after{
+  position:absolute;
+  content: '';
+  border-bottom: 2px solid #958753;
+  width: 100%;
+  transform: translateX(-50%);
+  bottom: -15px;
+  left: 50%;
+}
+
+#event-info h3 {
+  margin-top: 2rem;
+  color: #958753
+}
+
+#event-info h3 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#event-info p {
+  margin-left: 4rem;
+  margin-right: 12.5rem;
+}
+
+#event-text {
+  background-color: #212121;
+  color: #fff;
+}
+
+#event-info img {
+  height: 900px;
+}
+
+#event-info iframe {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  
+}
+
+/*FOOTER SETTINGS*/
+footer{
+  background-color: #f7f5f0;
+}
+
+footer .container{
+  padding: 1%;
+}
+
+footer p{
+  color:#000;
+  text-align:center;
+  font-family: futura;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top:10px;
+}
+
+.fa-heart{
+  color: #958753;
+  margin: 0 5px 0 5px;
+}
+
+@media screen and (max-width: 1400px) {
+
+  #event-info img {
+    height: 100%;
+  }
+
+  #event-info iframe {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+
+  #header {
+    display: none;
+  }
+
+  #hero h1 {
+      font-size: 4.5rem;
+  }
+  #hero p.byline {
+    font-size: 0.9rem;
+  }
+
+  #hero {
+    background-image: url(/picture/hero.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  #story img {
+    height: 550px;
+  }
+
+  #story h1 {
+    font-size: 2rem;
+  }
+
+  #story p {
+    margin-right: 3rem;
+  }
+  
+  #story #signature {
+    font-size: 1.5rem; 
+  }
+
+  #clockdiv h4 {
+    font-family: futura;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: normal;
+  }
+
+  #event-info img {
+    height: 100%;
+  }
+
+  #event-info h1 {
+    font-size: 2rem;
+  }
+
+  #event-info p {
+    margin-right: 3rem;
+  }
+
+  #event-info iframe {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 275px;
+  }
+
+  .btn-primary{ 
+    background: none;
+    color: #958753;
+    font-family: futura;
+    font-size:18px;
+    font-weight: normal;
+   
+  }
+
+  .rsvp-container {
+    height: 80%;
+    width: 95%;
+  }
+  
+  /* .rsvp-container::after {
+    width: 90%;
+    height: 85%; 
+    left: 20px;
+  } */
+
+  .rsvp-inner-container {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  #header {
+    display: none;
+  }
+
+  #hero h1 {
+      font-size: 4.5rem;
+  }
+  #hero p.byline {
+    font-size: 0.9rem;
+  }
+
+  #hero {
+    background-image: url(/picture/hero.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  #story img {
+    height: 500px;
+  }
+
+  #story h1 {
+    font-size: 3rem;
+  }
+
+  #story p {
+    margin-right: 3rem;
+  }
+  
+  #story #signature {
+    font-size: 2rem; 
+  }
+
+  #clockdiv h4 {
+    font-family: futura;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: normal;
+  }
+
+  #event-info img {
+    height: 600px;
+  }
+
+  #event-info h1 {
+    font-size: 3rem;
+  }
+
+  #event-info p {
+    margin-right: 3rem;
+  }
+
+  #event-info iframe {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 450px;
+    
+  }
+
+  .btn-primary{ 
+    background: none;
+    color: #958753;
+    font-family: futura;
+    font-size:18px;
+    font-weight: normal;
+   
+  }
+
+  .rsvp-container {
+    height: 80%;
+    width: 95%;
+  }
+  
+  /* .rsvp-container::after {
+    width: 90%;
+    height: 85%; 
+    left: 20px;
+  } */
+
+  .rsvp-inner-container {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  #header {
+    display: none;
+  }
+
+  #hero h1 {
+      font-size: 4.5rem;
+  }
+  #hero p.byline {
+    font-size: 0.9rem;
+  }
+
+  #hero {
+    background-image: url(/picture/hero.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  #story img {
+    height: 300px;
+  }
+
+  #story h1 {
+    font-size: 3rem;
+  }
+
+  #story p {
+    margin-right: 3rem;
+  }
+  
+  #story #signature {
+    font-size: 2rem; 
+  }
+
+  #clockdiv h4 {
+    font-family: futura;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: normal;
+  }
+
+  #event-info img {
+    height: 300px;
+  }
+
+  #event-info h1 {
+    font-size: 3rem;
+  }
+
+  #event-info p {
+    margin-right: 3rem;
+  }
+
+  #event-info iframe {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 275px;
+    
+  }
+
+  .btn-primary{ 
+    background: none;
+    color: #958753;
+    font-family: futura;
+    font-size:18px;
+    font-weight: normal;
+   
+  }
+
+  .rsvp-container {
+    height: 80%;
+    width: 95%;
+  }
+  
+  /* .rsvp-container::after {
+    width: 90%;
+    height: 85%; 
+    left: 20px;
+  } */
+
+  .rsvp-inner-container {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) and (max-height: 700px){
+
+  #header {
+    display: none;
+  }
+
+  #hero h1 {
+      font-size: 4.5rem;
+  }
+  #hero p.byline {
+    font-size: 0.9rem;
+  }
+
+  #hero {
+    background-image: url(/picture/hero.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  #story img {
+    height: 300px;
+  }
+
+  #story h1 {
+    font-size: 2.5rem;
+  }
+
+  #story p {
+    margin-right: 2.5rem;
+  }
+  
+  #story #signature {
+    font-size: 1.5rem; 
+  }
+
+  #clockdiv h4 {
+    font-family: futura;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: normal;
+  }
+
+  #event-info img {
+    height: 300px;
+  }
+
+  #event-info h1 {
+    font-size: 2.5rem;
+  }
+
+  #event-info p {
+    margin-right: 2.5rem;
+  }
+
+  #event-info iframe {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 75%;
+    
+  }
+
+  .btn-primary{ 
+    background: none;
+    color: #958753;
+    font-family: futura;
+    font-size:18px;
+    font-weight: normal;
+   
+  }
+
+  .rsvp-container {
+    height: 80%;
+    width: 95%;
+  }
+  
+  /* .rsvp-container::after {
+    width: 90%;
+    height: 85%; 
+    left: 20px;
+  } */
+
+  .rsvp-inner-container {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) and (max-height: 600px){
+
+  #header {
+    display: none;
+  }
+
+  #hero h1 {
+      font-size: 4.5rem;
+  }
+  #hero p.byline {
+    font-size: 0.9rem;
+  }
+
+  #hero {
+    background-image: url(/picture/hero.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  #story img {
+    height: 300px;
+  }
+
+  #story h1 {
+    font-size: 2.5rem;
+  }
+
+  #story p {
+    margin-right: 2.5rem;
+  }
+  
+  #story #signature {
+    font-size: 1.5rem; 
+  }
+
+  #clockdiv h4 {
+    font-family: futura;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: normal;
+  }
+
+  #event-info img {
+    height: 300px;
+  }
+
+  #event-info h1 {
+    font-size: 2.5rem;
+  }
+
+  #event-info p {
+    margin-right: 2.5rem;
+  }
+
+  #event-info iframe {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 240px;
+    
+  }
+
+  .btn-primary{ 
+    background: none;
+    color: #958753;
+    font-family: futura;
+    font-size:18px;
+    font-weight: normal;
+   
+  }
+
+  .rsvp-container {
+    height: 80%;
+    width: 95%;
+  }
+  
+  /* .rsvp-container::after {
+    width: 90%;
+    height: 85%; 
+    left: 20px;
+  } */
+
+  .rsvp-inner-container {
+    padding: 0.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
