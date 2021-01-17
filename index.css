@@ -144,7 +144,7 @@ li {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  background-image: url(/picture/hero.jpg);
+  background-image: url('https://user-images.githubusercontent.com/18401030/104838205-a7a90c80-58b9-11eb-9614-9bf5da3915da.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
@@ -519,7 +519,7 @@ footer p{
   }
 
   #hero {
-    background-image: url(/picture/hero.jpg);
+    background-image: url('https://user-images.githubusercontent.com/18401030/104838205-a7a90c80-58b9-11eb-9614-9bf5da3915da.jpg');
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -606,7 +606,7 @@ footer p{
   }
 
   #hero {
-    background-image: url(/picture/hero.jpg);
+    background-image: url('https://user-images.githubusercontent.com/18401030/104838205-a7a90c80-58b9-11eb-9614-9bf5da3915da.jpg');
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -694,7 +694,7 @@ footer p{
   }
 
   #hero {
-    background-image: url(/picture/hero.jpg);
+    background-image: url('https://user-images.githubusercontent.com/18401030/104838205-a7a90c80-58b9-11eb-9614-9bf5da3915da.jpg');
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -782,7 +782,7 @@ footer p{
   }
 
   #hero {
-    background-image: url(/picture/hero.jpg);
+    background-image: url('https://user-images.githubusercontent.com/18401030/104838205-a7a90c80-58b9-11eb-9614-9bf5da3915da.jpg');
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -870,7 +870,7 @@ footer p{
   }
 
   #hero {
-    background-image: url(/picture/hero.jpg);
+    background-image: url('https://user-images.githubusercontent.com/18401030/104838205-a7a90c80-58b9-11eb-9614-9bf5da3915da.jpg');
     width: 100vw;
     height: 100vh;
     background-size: cover;
