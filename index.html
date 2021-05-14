@@ -187,7 +187,10 @@
                   <form>
                     <div class="form-group">
                       <label for="formGroupExampleInput"
-                        >Numele si prenumele invitatiilor</label
+                        >Numele si prenumele invitatiilor<span
+                          style="color: red"
+                          >*</span
+                        ></label
                       >
                       <input
                         type="text"
@@ -249,9 +252,12 @@
                       </label>
                     </div>
 
-                    <div class="alert alert-danger" role="alert">
-                      Numele invitatilor este necesar inainte de a trimite
-                      raspunsul.
+                    <div
+                      class="alert alert-danger"
+                      role="alert"
+                      style="font-size: 0.75rem"
+                    >
+                      <span style="color: red">* </span>Camp obligatoriu
                     </div>
 
                     <button
