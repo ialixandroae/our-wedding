@@ -236,16 +236,17 @@ li {
   padding-top:20px;
   margin-left: 4rem;
   margin-right: 4rem;
+  text-align: center;
 }
 
 #story h1 {
   font-size: 4rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-left: 4rem;
   margin-right: 4rem;
   color: #958753;
-  display: inline-block;
   position: relative;
+  text-align: center;
 }
 
 #story h1::after{
@@ -264,7 +265,38 @@ li {
 }
 
 #story img {
-  height: 750px;
+  height: 100%
+}
+
+#story #calendar {
+  margin-top: 3rem;
+}
+
+#story #calendar p{
+  margin-top: 2rem;
+  margin-left: 0;
+  margin-left: 4rem;
+  margin-right: 1.5rem;
+}
+
+
+ul {
+  list-style-type:none;
+  margin:1em 0;
+}
+
+.heart li {
+  padding-left: 1.3em ;
+}
+
+.heart li:before {
+  color:#958753;
+  font-family:FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  content: "\f004";
+  position: absolute
 }
 
 /* CONFIRMATION SETTINGS */
@@ -421,7 +453,7 @@ li {
 
 #event-info h1 {
   font-size: 4rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-left: 4rem;
   margin-right: 4rem;
   color: #958753;
@@ -460,7 +492,7 @@ li {
 }
 
 #event-info img {
-  height: 900px;
+  height: 100%
 }
 
 #event-info iframe {
@@ -492,6 +524,79 @@ footer p{
   margin: 0 5px 0 5px;
 }
 
+@media screen and (max-width: 1680px) {
+
+  #event-info img {
+    height: 100%;
+  }
+
+  #event-info iframe {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 350px;
+    height: 200px;
+  }
+
+  #story img {
+    height: 100%;
+  }
+ 
+ 
+
+  .heart li {
+    padding-left: 0.5em ;
+  }
+  
+  .heart li:before {
+    margin-left: -0.5em;
+    width: 0.5em;
+  }
+
+  #story h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+
+
+  #story p {
+    margin-right: 3rem;
+  }
+  
+  #story #signature {
+    font-size: 2rem; 
+  }
+
+  #clockdiv h4 {
+    font-family: futura;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    font-weight: normal;
+  }
+
+  #event-info img {
+    height: 100%;
+  }
+
+  #event-info h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  #event-info img {
+    height: 100%;
+  }
+
+  #event-info iframe {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 350px;
+    height: 150px;
+  }
+}
+
 @media screen and (max-width: 1400px) {
 
   #event-info img {
@@ -501,7 +606,65 @@ footer p{
   #event-info iframe {
     margin-top: 1rem;
     margin-left: 3rem;
-    width: 375px;
+    width: 350px;
+    height: 150px;
+  }
+  
+
+  #story img {
+    height: 100%;
+  }
+ 
+  #story #calendar p{
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .heart li {
+    padding-left: 0.5em ;
+  }
+  
+  .heart li:before {
+    margin-left: -0.5em;
+    width: 0.5em;
+  }
+
+  #story h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+
+  #story p {
+    margin-right: 3rem;
+  }
+  
+  #story #signature {
+    font-size: 1.5rem; 
+  }
+
+  #clockdiv h4 {
+    font-family: futura;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: normal;
+  }
+
+  #event-info img {
+    height: 100%;
+  }
+
+  #event-info h1 {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  #event-info p {
+    font-size: 0.75rem;
+    margin-right: 3rem;
   }
 }
 
@@ -527,7 +690,24 @@ footer p{
   }
 
   #story img {
-    height: 550px;
+    height: 100%;
+  }
+ 
+  #story #calendar p{
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .heart li {
+    padding-left: 0.5em ;
+  }
+  
+  .heart li:before {
+    margin-left: -0.5em;
+    width: 0.5em;
   }
 
   #story h1 {
@@ -554,10 +734,12 @@ footer p{
   }
 
   #event-info h1 {
+    margin-top: 2rem;
     font-size: 2rem;
   }
 
   #event-info p {
+    font-size: 0.75rem;
     margin-right: 3rem;
   }
 
@@ -614,7 +796,7 @@ footer p{
   }
 
   #story img {
-    height: 500px;
+    height: 100%;
   }
 
   #story h1 {
@@ -637,7 +819,7 @@ footer p{
   }
 
   #event-info img {
-    height: 600px;
+    height: 100%;
   }
 
   #event-info h1 {
@@ -702,10 +884,11 @@ footer p{
   }
 
   #story img {
-    height: 300px;
+    height: 100%;
   }
 
   #story h1 {
+    margin-top: 3rem;
     font-size: 3rem;
   }
 
@@ -725,10 +908,11 @@ footer p{
   }
 
   #event-info img {
-    height: 300px;
+    height: 100%;
   }
 
   #event-info h1 {
+    margin-top: 3rem;
     font-size: 3rem;
   }
 
@@ -790,7 +974,7 @@ footer p{
   }
 
   #story img {
-    height: 300px;
+    height: 100%;
   }
 
   #story h1 {
@@ -813,7 +997,7 @@ footer p{
   }
 
   #event-info img {
-    height: 300px;
+    height: 100%;
   }
 
   #event-info h1 {
@@ -878,7 +1062,7 @@ footer p{
   }
 
   #story img {
-    height: 300px;
+    height: 100%;
   }
 
   #story h1 {
@@ -901,7 +1085,7 @@ footer p{
   }
 
   #event-info img {
-    height: 300px;
+    height: 100%;
   }
 
   #event-info h1 {
