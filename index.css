@@ -579,7 +579,7 @@ footer p{
 
   #event-info h1 {
     font-size: 3rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
 
@@ -595,6 +595,15 @@ footer p{
     width: 350px;
     height: 150px;
   }
+
+  #event-info h1 {
+    margin-top: 3rem;
+  }
+
+  #story h1 {
+    margin-top: 3rem;
+  }
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -634,7 +643,7 @@ footer p{
 
   #story h1 {
     font-size: 3rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
 
@@ -658,8 +667,8 @@ footer p{
   }
 
   #event-info h1 {
-    margin-top: 2rem;
-    font-size: 2rem;
+    margin-top: 3rem;
+    font-size: 3rem;
   }
 
   #event-info p {
@@ -675,7 +684,7 @@ footer p{
   }
 
   #hero h1 {
-      font-size: 4.5rem;
+    font-size: 4.5rem;
   }
   #hero p.byline {
     font-size: 0.9rem;
@@ -711,7 +720,8 @@ footer p{
   }
 
   #story h1 {
-    font-size: 2rem;
+    margin-top: 3rem;
+    font-size: 2.5rem;
   }
 
   #story p {
@@ -734,8 +744,8 @@ footer p{
   }
 
   #event-info h1 {
-    margin-top: 2rem;
-    font-size: 2rem;
+    margin-top: 3rem;
+    font-size: 2.5rem;
   }
 
   #event-info p {
@@ -800,6 +810,7 @@ footer p{
   }
 
   #story h1 {
+    margin-top: 3rem;
     font-size: 3rem;
   }
 
@@ -823,6 +834,7 @@ footer p{
   }
 
   #event-info h1 {
+    margin-top: 3rem;
     font-size: 3rem;
   }
 
@@ -869,7 +881,7 @@ footer p{
   }
 
   #hero h1 {
-      font-size: 4.5rem;
+    font-size: 4.5rem;
   }
   #hero p.byline {
     font-size: 0.9rem;
@@ -959,7 +971,7 @@ footer p{
   }
 
   #hero h1 {
-      font-size: 4.5rem;
+    font-size: 4.5rem;
   }
   #hero p.byline {
     font-size: 0.9rem;
@@ -978,6 +990,7 @@ footer p{
   }
 
   #story h1 {
+    margin-top: 3rem;
     font-size: 2.5rem;
   }
 
@@ -1047,7 +1060,7 @@ footer p{
   }
 
   #hero h1 {
-      font-size: 4.5rem;
+    font-size: 4.5rem;
   }
   #hero p.byline {
     font-size: 0.9rem;
@@ -1066,6 +1079,7 @@ footer p{
   }
 
   #story h1 {
+    margin-top: 3rem;
     font-size: 2.5rem;
   }
 
